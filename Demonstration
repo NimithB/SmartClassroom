@@ -1,0 +1,47 @@
+TEAM SMART SPARKS - B.N.M INSTITUTE OF TECHNOLOGY 
+Domain: Internet Of Things
+Title: Smart Classroom Environment Control System - Revolutionizing Energy Efficiency and Comfort
+https://www.youtube.com/watch?v=s2yacyNkLz0
+Description:
+Our project, the Smart Classroom Environment Control System, stands at the forefront of this revolution. This innovative system intelligently integrates Internet of Things (IoT) devices and Artificial Intelligence (AI) algorithms to dynamically manage and control various appliances such as fans, lights, and air conditioning units in response to classroom occupancy. By accurately detecting the presence and counting the number of individuals in a room, it ensures optimal resource utilization and maintains a comfortable environment for both students and educators.
+
+In this demo, we'll take you through the heart of our project, highlighting:
+
+The Hardware Setup
+ESP32-CAM for image capture and processing, Ultrasonic Sensor for motion detection, OLED Display for feedback, Arduino Uno WiFi for seamless communication, and sensors for monitoring environmental conditions.
+
+Software and Libraries
+ Arduino IDE, Intel OpenVINO Toolkit for AI model deployment, U8glib Library for display interfacing, and OpenCV for advanced image processing.
+
+ System Workflow
+Motion Detection:
+The Ultrasonic Sensor continuously scans the classroom for motion.
+Upon detecting motion, the sensor triggers the ESP32-CAM to activate and prepare for image capture.
+
+Image Capture and Processing:
+The ESP32-CAM captures a high-quality image of the classroom immediately after motion is detected.
+The captured image is then processed using two AI-based face detection models to accurately identify and count the number of people present in the classroom.
+The outputs from the two face detection models are averaged to improve the accuracy of the face count.
+
+Data Transmission:
+The ESP32-CAM sends the calculated face count data to the Arduino Uno WiFi module (ESP8266) using Wi-Fi communication.
+The Arduino Uno WiFi receives and processes the face count data for further actions.
+
+Display and Environmental Control:
+The Arduino Uno WiFi displays the number of detected faces on the OLED display, providing a real-time count of classroom occupancy.
+Based on the occupancy data and pre-set conditions, if the temperature sensor reads above 30°C and the classroom is occupied, the system activates the fan to regulate the temperature.
+Similarly, the presence of people in the classroom triggers the lights to turn on, ensuring an illuminated environment for occupants.
+
+Error Handling and Alerts:
+The system constantly checks for errors in sensor readings, image processing accuracy, and data transmission reliability.
+Any detected errors or malfunctions trigger error messages or alerts, which are displayed on the OLED screen to facilitate quick troubleshooting.
+
+Continuous Monitoring and Loop:
+After executing the control commands, the system doesn't stop;
+ it continuously monitors the classroom environment using the ultrasonic sensor.
+This loop of detecting motion, capturing images, processing data, and controlling the environment runs continuously, ensuring the classroom conditions are always optimized for comfort and energy efficiency based on real-time occupancy.
+
+
+Our demo is not just a showcase of technological innovation but a step toward sustainable living environments. 
+
+#SmartClassroom #IoT #AI #EnergyEfficiency #SustainableLiving #EducationalInnovation #TechnologyDemo
