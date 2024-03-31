@@ -1,4 +1,4 @@
-#  💡 Smart Classroom Environment Control System  🌍💡
+#  💡 Smart Classroom Environment Control System  💡
 ## Transforming educational spaces into eco-friendly, energy-efficient, and adaptive learning environments.
 An innovative solution for optimizing energy consumption and enhancing user comfort in large spaces, such as classrooms or expansive rooms with multiple fans, lights, and AC units. Developed a system that integrates IoT devices and AI algorithms to intelligently control individual appliances based on occupancy. The objective is to dynamically activate and deactivate fans, lights, and AC units in response to the presence or absence of individuals within specific zones, ensuring efficient resource utilization and a comfortable environment.
 
@@ -21,13 +21,14 @@ An innovative solution for optimizing energy consumption and enhancing user comf
 - **Energy efficiency and Sustainability:** Optimizes energy use by activating lights and fans only when needed, contributing to sustainability and cost-effectiveness.
 
 ## 🎥 Demonstration of the project
-//video  
-YOUTUBE URL: https://www.youtube.com/watch?v=s2yacyNkLz0
+
+[![Watch the video](https://img.youtube.com/vi/s2yacyNkLz0/maxresdefault.jpg)](https://www.youtube.com/watch?v=s2yacyNkLz0)
+
 
 ## 👤 Models
 1. Face-Detection Model
-   - Folder URL: [SmartSpark/model/face-detection-0200.xml](https://github.com/NimithB/SmartSpark/blob/main/model/face-detection-0200.xml)
-   - Folder URL: [SmartSpark/model/face-detection-0200.bin](https://github.com/NimithB/SmartSpark/blob/main/model/face-detection-0200.bin)
+   - Model's xml URL: [SmartSpark/model/face-detection-0200.xml](https://github.com/NimithB/SmartSpark/blob/main/model/face-detection-0200.xml)
+   - Model's bin URL: [SmartSpark/model/face-detection-0200.bin](https://github.com/NimithB/SmartSpark/blob/main/model/face-detection-0200.bin)
 
 ## 🤖 Face detection model
 The face detection model works by scanning images in real-time to locate human faces within them. These models are typically trained on vast datasets containing millions of images to learn various facial features and structures. It is built using OneAPI.
@@ -78,7 +79,7 @@ Before diving in, ensure the following are ready:
 **Step 2**: Assemble **Sensors and Modules**:
 - connect the ultrasonic sensor, ESP32-CAM, DHT sensor, LEDs, and buzzer to your Arduino.
 - This step is crucial for the physical interaction part of the project.
-- //image
+- Refer intructions.txt file for more details.
 
 ## 💾 Software Setup
 **Step 1**: **Arduino Configuration**:
@@ -149,17 +150,14 @@ Verify model files loaded correctly and implement inference code accurately. Che
 - The system continuously monitors for motion using the ultrasonic sensor.
 - It repeats the process of presence detection, image capture, and face counting in a loop.
 
-<div align="center">
-  <img src=" https://github.com/NimithB/SmartSpark/blob/main/Hardware/blockdiagram.jpeg" alt="Image" style="max-width: 1000px;">
-</div>
- 
+![Block Diagram](https://github.com/NimithB/SmartSpark/blob/main/Hardware/blockdiagram.jpeg)
+
 
 **Results**
 Following the initial detection and image capture, the system swiftly processes the image through a sophisticated AI model designed for facial recognition. This model accurately counts and analyzes the faces within the image, showcasing the power of machine learning in real-time data analysis. The integration of these technologies not only enhances security measures but also offers insights into the environment it monitors.
 
 url for result images: [SmartSpark/testimages/result at main · NimithB/SmartSpark (github.com)](https://github.com/NimithB/SmartSpark/tree/main/testimages/result)
 
-//add an image where the faces are boed and the fan and led is on
 
 **Hardware**
 
@@ -168,3 +166,8 @@ url for result images: [SmartSpark/testimages/result at main · NimithB/SmartSpa
 **Arduino Uno WiFi:** Offering the familiarity of the Arduino platform coupled with onboard Wi-Fi capabilities, the Arduino Uno WiFi empowers users to seamlessly connect their projects to the internet, enabling remote monitoring, control, and data logging without additional shields or modules. Furthermore, the integration of Wi-Fi connectivity simplifies the development process, allowing for rapid prototyping and deployment of IoT solutions
 
 **IR Sensor:** A staple in automation and robotics, IR sensors detect infrared radiation emitted by objects, converting it into electrical signals to trigger actions such as activating lights, opening doors, or detecting intruders, making them indispensable components in smart home and security systems.
+
+## 🙏 Thank You
+We extend our heartfelt gratitude to the Anokha and Intel teams for providing us with this incredible opportunity to showcase our project. Their support, resources, and encouragement have been instrumental in making our vision for a smarter, more sustainable classroom environment a reality. Thank you for empowering innovators like us to make a positive impact on education and sustainability. 
+Additionally, we express our profound thanks to BNM Institute of Technology for their invaluable support, both financially and through various forms of assistance. Their commitment to fostering innovation and supporting their students' endeavors has played a crucial role in the realization of our project.
+
