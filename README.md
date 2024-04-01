@@ -153,19 +153,12 @@ Verify model files loaded correctly and implement inference code accurately. Che
 ![Block Diagram](https://github.com/NimithB/SmartSpark/blob/main/Hardware/blockdiagram.jpeg)
 
 
-**Results**
+## **Results**💻🧰📚
 Following the initial detection and image capture, the system swiftly processes the image through a sophisticated AI model designed for facial recognition. This model accurately counts and analyzes the faces within the image, showcasing the power of machine learning in real-time data analysis. The integration of these technologies not only enhances security measures but also offers insights into the environment it monitors.
 
-url for result images: [SmartSpark/testimages/result at main · NimithB/SmartSpark (github.com)](https://github.com/NimithB/SmartSpark/tree/main/testimages/result)
+URL for result images: [SmartSpark/testimages/result at main · NimithB/SmartSpark (github.com)](https://github.com/NimithB/SmartSpark/tree/main/testimages/result)
 
 
-**Hardware**
-
-**ESP32 Camera Module:** The ESP32 camera module integrates a high-resolution camera sensor with the ESP32 microcontroller, enabling users to capture images and videos, stream live feeds, and perform machine vision tasks directly. With its compact form factor and versatile capabilities, it is well-suited for applications ranging from surveillance and monitoring to image recognition and augmented reality.
-
-**Arduino Uno WiFi:** Offering the familiarity of the Arduino platform coupled with onboard Wi-Fi capabilities, the Arduino Uno WiFi empowers users to seamlessly connect their projects to the internet, enabling remote monitoring, control, and data logging without additional shields or modules. Furthermore, the integration of Wi-Fi connectivity simplifies the development process, allowing for rapid prototyping and deployment of IoT solutions
-
-**IR Sensor:** A staple in automation and robotics, IR sensors detect infrared radiation emitted by objects, converting it into electrical signals to trigger actions such as activating lights, opening doors, or detecting intruders, making them indispensable components in smart home and security systems.
 
 ## 🙏 Thank You
 We extend our heartfelt gratitude to the Anokha and Intel teams for providing us with this incredible opportunity to showcase our project. Their support, resources, and encouragement have been instrumental in making our vision for a smarter, more sustainable classroom environment a reality. Thank you for empowering innovators like us to make a positive impact on education and sustainability. 
