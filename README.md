@@ -161,6 +161,5 @@ URL for result images: [SmartSpark/testimages/result at main · NimithB/SmartSpa
 
 
 ## 🙏 Thank You
-We extend our heartfelt gratitude to the Anokha and Intel teams for providing us with this incredible opportunity to showcase our project. Their support, resources, and encouragement have been instrumental in making our vision for a smarter, more sustainable classroom environment a reality. Thank you for empowering innovators like us to make a positive impact on education and sustainability. 
-Additionally, we express our profound thanks to BNM Institute of Technology for their invaluable support, both financially and through various forms of assistance. Their commitment to fostering innovation and supporting their students' endeavors has played a crucial role in the realization of our project.
+Thanks to BNM Institute of Technology for their invaluable support, both financially and through various forms of assistance. Their commitment to fostering innovation and supporting their students' endeavors has played a crucial role in the realization of our project.
 
